@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+}
+
+
+@keyframes example {
+    25% {background-image: url('https://www.tourmyindia.com/blog//wp-content/uploads/2018/09/Festivals-to-Witness-in-December.jpg');}
+    50% {background-image: url("https://image.wedmegood.com/resized/800X/uploads/member/39954/1489020937_1487251738_1486764007_1N3A1205.jpg");}
+    75% {background-image: url('https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/960/330/90/media/dm/en-us/global/corporate-events/CorporateEventsOverview-Hero-5x2v2.jpg');}
+    100% {background-image: url("https://www.transindiatravels.com/wp-content/uploads/nh7-weekender.jpg");}
+  }
+
+
+.course{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+.row{
+    width:100%;
+    display:inline-flex;
+    justify-content:space-evenly;
+    padding-right: 2%;
+
+}
+.course-col{
+    flex-basis: 50%;
+    background: #e0e3e4;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 1% 1%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.course-col img{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', cursive;
+}
+.header{
+    
+    width:100%;
+    background-color:rgb(177, 181, 183);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 12%;
+
+}
+
+.abc a{
+  text-decoration: none;
+  font-family: "Sofia", sans-serif;
+  font-style:italic
+}
+nav{
+    display:flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:75px;
+    height: 60px;
+    
+}
+.name {
+text-align: center;
+padding-top: 5%;
+}
+
+
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+
+.nav-links ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background: rgb(217, 171, 171);
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+
+}
+
+nav .fa{
+    display:none;
+}
+
